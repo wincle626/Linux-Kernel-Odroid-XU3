@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/ath/carl9170/carl9170.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/drivers/net/wireless/ath/carl9170/carl9170.ko backports/drivers/net/wireless/ath/carl9170/carl9170.o backports/drivers/net/wireless/ath/carl9170/carl9170.mod.o

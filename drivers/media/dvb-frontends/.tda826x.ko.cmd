@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda826x.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/tda826x.ko drivers/media/dvb-frontends/tda826x.o drivers/media/dvb-frontends/tda826x.mod.o

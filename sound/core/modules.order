@@ -1,0 +1,6 @@
+kernel/sound/core/snd-hwdep.ko
+kernel/sound/core/snd-rawmidi.ko
+kernel/sound/core/seq/snd-seq.ko
+kernel/sound/core/seq/snd-seq-device.ko
+kernel/sound/core/seq/snd-seq-midi.ko
+kernel/sound/core/seq/snd-seq-midi-event.ko

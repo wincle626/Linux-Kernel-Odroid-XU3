@@ -1,0 +1,1 @@
+cmd_backports/compat/compat.o := ld -EL    -r -o backports/compat/compat.o backports/compat/main.o backports/compat/backport-3.12.o backports/compat/backport-3.13.o backports/compat/backport-3.14.o backports/compat/backport-3.15.o backports/compat/backport-3.17.o backports/compat/backport-3.18.o backports/compat/backport-3.19.o 

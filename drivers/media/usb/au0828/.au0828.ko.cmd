@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/au0828/au0828.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/au0828/au0828.ko drivers/media/usb/au0828/au0828.o drivers/media/usb/au0828/au0828.mod.o

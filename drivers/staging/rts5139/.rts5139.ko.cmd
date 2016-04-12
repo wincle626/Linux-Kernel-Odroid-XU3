@@ -1,0 +1,1 @@
+cmd_drivers/staging/rts5139/rts5139.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/staging/rts5139/rts5139.ko drivers/staging/rts5139/rts5139.o drivers/staging/rts5139/rts5139.mod.o

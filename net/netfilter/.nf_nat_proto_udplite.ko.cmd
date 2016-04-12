@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_proto_udplite.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/nf_nat_proto_udplite.ko net/netfilter/nf_nat_proto_udplite.o net/netfilter/nf_nat_proto_udplite.mod.o

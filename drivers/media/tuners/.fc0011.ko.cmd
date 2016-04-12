@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/fc0011.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/tuners/fc0011.ko drivers/media/tuners/fc0011.o drivers/media/tuners/fc0011.mod.o

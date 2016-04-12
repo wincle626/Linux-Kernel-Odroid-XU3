@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-af9005-remote.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-af9005-remote.ko drivers/media/usb/dvb-usb/dvb-usb-af9005-remote.o drivers/media/usb/dvb-usb/dvb-usb-af9005-remote.mod.o

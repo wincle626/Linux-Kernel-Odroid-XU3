@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/nxt200x.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/nxt200x.ko drivers/media/dvb-frontends/nxt200x.o drivers/media/dvb-frontends/nxt200x.mod.o

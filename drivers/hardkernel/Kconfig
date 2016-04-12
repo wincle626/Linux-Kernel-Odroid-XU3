@@ -1,0 +1,47 @@
+menu "ODROID Specific Hardware"
+
+config ODROID_EXYNOS5_FAN
+	tristate "Enable the PWM Controlled FAN on ODROID-EXYNOS5"
+	depends on MACH_ODROIDXU3
+	default y
+	---help---
+		Enables the PWM Controlled FAN on ODROID-EXYNOS5
+
+config ODROID_EXYNOS5_SP
+	tristate "Enable the INA231 Sensor on ODROID-EXYNOS5"
+	depends on MACH_ODROIDXU3
+	default n
+	---help---
+		Enables the INA231 Sensor on ODROID-EXYNOS5
+
+config ODROID_EXYNOS5_IOBOARD
+    tristate "Enable the ODROID EXYNOS5 IOBOARD Drivers"
+	depends on MACH_ODROIDXU3
+	default n
+	---help---
+		Enables the IOBOARD Drivers
+
+config ODROID_EXYNOS5_IOBOARD_DEBUG
+    bool "Enable the ODROIDXU IOBOARD DEBUG Enable"
+	depends on ODROID_EXYNOS5_IOBOARD
+	default n
+	---help---
+		Enables the IOBOARD Debug Message
+
+config ODROID_EXYNOS5_HDMI_PHY_TUNE
+    bool "Enable HDMI-PHY tune functions"
+	depends on MACH_ODROIDXU3
+	default y
+	help
+	    Enables HDMI-PHY tune functions.
+
+config ODROID_EXYNOS5_HDMI_PHY_TUNE_DEBUG
+	depends on MACH_ODROIDXU3 && ODROID_EXYNOS5_HDMI_PHY_TUNE
+    bool "Enable HDMI-PHY tune info display"
+	depends on MACH_ODROIDXU3
+	default n
+	help
+	    Enables HDMI-PHY tune info display.
+
+endmenu
+

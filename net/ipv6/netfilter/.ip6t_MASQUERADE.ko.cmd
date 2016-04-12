@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_MASQUERADE.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_MASQUERADE.ko net/ipv6/netfilter/ip6t_MASQUERADE.o net/ipv6/netfilter/ip6t_MASQUERADE.mod.o

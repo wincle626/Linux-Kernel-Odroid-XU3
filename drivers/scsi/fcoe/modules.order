@@ -1,0 +1,2 @@
+kernel/drivers/scsi/fcoe/fcoe.ko
+kernel/drivers/scsi/fcoe/libfcoe.ko

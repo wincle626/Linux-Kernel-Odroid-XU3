@@ -1,0 +1,1 @@
+cmd_net/netfilter/nfnetlink_cttimeout.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/nfnetlink_cttimeout.ko net/netfilter/nfnetlink_cttimeout.o net/netfilter/nfnetlink_cttimeout.mod.o

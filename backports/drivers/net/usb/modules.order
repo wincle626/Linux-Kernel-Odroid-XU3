@@ -1,0 +1,3 @@
+kernel/backports/drivers/net/usb/cdc_ether.ko
+kernel/backports/drivers/net/usb/rndis_host.ko
+kernel/backports/drivers/net/usb/usbnet.ko

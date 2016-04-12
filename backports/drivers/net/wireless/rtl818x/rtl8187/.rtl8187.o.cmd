@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.o := ld -EL    -r -o backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.o backports/drivers/net/wireless/rtl818x/rtl8187/dev.o backports/drivers/net/wireless/rtl818x/rtl8187/rtl8225.o backports/drivers/net/wireless/rtl818x/rtl8187/leds.o backports/drivers/net/wireless/rtl818x/rtl8187/rfkill.o 

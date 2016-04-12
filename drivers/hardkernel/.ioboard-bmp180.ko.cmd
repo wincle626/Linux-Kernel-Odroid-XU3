@@ -1,0 +1,1 @@
+cmd_drivers/hardkernel/ioboard-bmp180.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hardkernel/ioboard-bmp180.ko drivers/hardkernel/ioboard-bmp180.o drivers/hardkernel/ioboard-bmp180.mod.o

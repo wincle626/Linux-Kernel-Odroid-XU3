@@ -1,0 +1,1 @@
+cmd_drivers/clk/samsung/built-in.o :=  ld -EL    -r -o drivers/clk/samsung/built-in.o drivers/clk/samsung/clk.o drivers/clk/samsung/clk-pll.o drivers/clk/samsung/clk-exynos5422.o drivers/clk/samsung/init-exynos5422.o drivers/clk/samsung/clk-exynos-audss.o drivers/clk/samsung/clk-exynos-pwm.o 

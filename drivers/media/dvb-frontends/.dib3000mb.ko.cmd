@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/dib3000mb.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/dib3000mb.ko drivers/media/dvb-frontends/dib3000mb.o drivers/media/dvb-frontends/dib3000mb.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/opticon.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/opticon.ko drivers/usb/serial/opticon.o drivers/usb/serial/opticon.mod.o

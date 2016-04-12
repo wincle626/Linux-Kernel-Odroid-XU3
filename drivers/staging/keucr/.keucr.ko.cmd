@@ -1,0 +1,1 @@
+cmd_drivers/staging/keucr/keucr.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/staging/keucr/keucr.ko drivers/staging/keucr/keucr.o drivers/staging/keucr/keucr.mod.o

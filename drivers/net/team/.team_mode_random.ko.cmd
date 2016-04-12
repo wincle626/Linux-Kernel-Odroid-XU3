@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_random.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_random.ko drivers/net/team/team_mode_random.o drivers/net/team/team_mode_random.mod.o

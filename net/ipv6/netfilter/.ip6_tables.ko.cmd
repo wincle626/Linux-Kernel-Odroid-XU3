@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6_tables.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6_tables.ko net/ipv6/netfilter/ip6_tables.o net/ipv6/netfilter/ip6_tables.mod.o

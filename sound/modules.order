@@ -1,0 +1,10 @@
+kernel/sound/core/snd-hwdep.ko
+kernel/sound/core/snd-rawmidi.ko
+kernel/sound/core/seq/snd-seq.ko
+kernel/sound/core/seq/snd-seq-device.ko
+kernel/sound/core/seq/snd-seq-midi.ko
+kernel/sound/core/seq/snd-seq-midi-event.ko
+kernel/sound/pci/ac97/snd-ac97-codec.ko
+kernel/sound/usb/snd-usb-audio.ko
+kernel/sound/usb/snd-usbmidi-lib.ko
+kernel/sound/ac97_bus.ko

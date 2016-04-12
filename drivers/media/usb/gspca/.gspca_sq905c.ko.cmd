@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_sq905c.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_sq905c.ko drivers/media/usb/gspca/gspca_sq905c.o drivers/media/usb/gspca/gspca_sq905c.mod.o

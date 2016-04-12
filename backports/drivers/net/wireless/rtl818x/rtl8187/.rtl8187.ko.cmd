@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.ko backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.o backports/drivers/net/wireless/rtl818x/rtl8187/rtl8187.mod.o

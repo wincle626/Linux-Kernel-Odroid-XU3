@@ -1,0 +1,1 @@
+cmd_backports/drivers/realtek/8192cu/8192cu.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/drivers/realtek/8192cu/8192cu.ko backports/drivers/realtek/8192cu/8192cu.o backports/drivers/realtek/8192cu/8192cu.mod.o

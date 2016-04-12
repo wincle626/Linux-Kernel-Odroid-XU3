@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtables.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebtables.ko net/bridge/netfilter/ebtables.o net/bridge/netfilter/ebtables.mod.o

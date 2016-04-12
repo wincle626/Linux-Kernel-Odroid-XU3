@@ -1,0 +1,1 @@
+cmd_drivers/video/fb_sys_fops.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/video/fb_sys_fops.ko drivers/video/fb_sys_fops.o drivers/video/fb_sys_fops.mod.o

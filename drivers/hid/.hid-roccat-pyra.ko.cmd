@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-pyra.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-pyra.ko drivers/hid/hid-roccat-pyra.o drivers/hid/hid-roccat-pyra.mod.o

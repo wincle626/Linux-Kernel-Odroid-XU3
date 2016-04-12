@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/usb_f_acm.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/gadget/usb_f_acm.ko drivers/usb/gadget/usb_f_acm.o drivers/usb/gadget/usb_f_acm.mod.o

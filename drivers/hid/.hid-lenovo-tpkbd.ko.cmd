@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-lenovo-tpkbd.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hid/hid-lenovo-tpkbd.ko drivers/hid/hid-lenovo-tpkbd.o drivers/hid/hid-lenovo-tpkbd.mod.o

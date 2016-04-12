@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_addrtype.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/xt_addrtype.ko net/netfilter/xt_addrtype.o net/netfilter/xt_addrtype.mod.o

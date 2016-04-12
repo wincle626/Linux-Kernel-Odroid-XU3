@@ -1,0 +1,1 @@
+cmd_drivers/staging/android/built-in.o :=  ld -EL    -r -o drivers/staging/android/built-in.o drivers/staging/android/ion/built-in.o drivers/staging/android/timed_output.o drivers/staging/android/sync.o drivers/staging/android/sw_sync.o 

@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/garmin_gps.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/garmin_gps.ko drivers/usb/serial/garmin_gps.o drivers/usb/serial/garmin_gps.mod.o

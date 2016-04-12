@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stv0297.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/stv0297.ko drivers/media/dvb-frontends/stv0297.o drivers/media/dvb-frontends/stv0297.mod.o

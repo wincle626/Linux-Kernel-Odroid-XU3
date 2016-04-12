@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_netiface.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_netiface.ko net/netfilter/ipset/ip_set_hash_netiface.o net/netfilter/ipset/ip_set_hash_netiface.mod.o

@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_nat_tftp.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/nf_nat_tftp.ko net/netfilter/nf_nat_tftp.o net/netfilter/nf_nat_tftp.mod.o

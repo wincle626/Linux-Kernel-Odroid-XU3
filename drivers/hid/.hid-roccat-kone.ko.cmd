@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-roccat-kone.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hid/hid-roccat-kone.ko drivers/hid/hid-roccat-kone.o drivers/hid/hid-roccat-kone.mod.o

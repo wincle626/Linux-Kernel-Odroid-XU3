@@ -1,0 +1,1 @@
+cmd_drivers/target/loopback/tcm_loop.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/target/loopback/tcm_loop.ko drivers/target/loopback/tcm_loop.o drivers/target/loopback/tcm_loop.mod.o

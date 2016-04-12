@@ -1,0 +1,5 @@
+kernel/drivers/hardkernel/ina231-sensor.ko
+kernel/drivers/hardkernel/ioboard-bh1780.ko
+kernel/drivers/hardkernel/ioboard-bmp180.ko
+kernel/drivers/hardkernel/ioboard-keyled.ko
+kernel/drivers/hardkernel/ioboard-spi-flash.ko

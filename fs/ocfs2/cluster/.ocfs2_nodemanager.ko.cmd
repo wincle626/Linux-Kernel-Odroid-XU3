@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/cluster/ocfs2_nodemanager.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o fs/ocfs2/cluster/ocfs2_nodemanager.ko fs/ocfs2/cluster/ocfs2_nodemanager.o fs/ocfs2/cluster/ocfs2_nodemanager.mod.o

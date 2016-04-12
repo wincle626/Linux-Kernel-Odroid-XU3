@@ -1,0 +1,1 @@
+cmd_drivers/media/pci/ttpci/ttpci-eeprom.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/pci/ttpci/ttpci-eeprom.ko drivers/media/pci/ttpci/ttpci-eeprom.o drivers/media/pci/ttpci/ttpci-eeprom.mod.o

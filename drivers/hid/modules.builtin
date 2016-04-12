@@ -1,0 +1,5 @@
+kernel/drivers/hid/hid.ko
+kernel/drivers/hid/hid-generic.ko
+kernel/drivers/hid/hid-logitech.ko
+kernel/drivers/hid/hid-logitech-dj.ko
+kernel/drivers/hid/usbhid/usbhid.ko

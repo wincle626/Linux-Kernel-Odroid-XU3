@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/aircable.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/aircable.ko drivers/usb/serial/aircable.o drivers/usb/serial/aircable.mod.o

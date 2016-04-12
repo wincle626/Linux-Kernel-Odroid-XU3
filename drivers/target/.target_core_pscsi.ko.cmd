@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_pscsi.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/target/target_core_pscsi.ko drivers/target/target_core_pscsi.o drivers/target/target_core_pscsi.mod.o

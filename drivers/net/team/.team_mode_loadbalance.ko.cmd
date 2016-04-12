@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_loadbalance.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_loadbalance.ko drivers/net/team/team_mode_loadbalance.o drivers/net/team/team_mode_loadbalance.mod.o

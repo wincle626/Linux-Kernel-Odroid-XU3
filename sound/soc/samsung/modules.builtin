@@ -1,0 +1,4 @@
+kernel/sound/soc/samsung/snd-soc-s3c24xx.ko
+kernel/sound/soc/samsung/snd-soc-i2s.ko
+kernel/sound/soc/samsung/snd-soc-lpass.ko
+kernel/sound/soc/samsung/snd-soc-odroid-max98090.ko

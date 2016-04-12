@@ -1,0 +1,2 @@
+kernel/backports/drivers/net/wireless/brcm80211/brcmutil/brcmutil.ko
+kernel/backports/drivers/net/wireless/brcm80211/brcmfmac/brcmfmac.ko

@@ -1,0 +1,5 @@
+kernel/drivers/media/v4l2-core/tuner.ko
+kernel/drivers/media/v4l2-core/videobuf-core.ko
+kernel/drivers/media/v4l2-core/videobuf-vmalloc.ko
+kernel/drivers/media/v4l2-core/videobuf-dvb.ko
+kernel/drivers/media/v4l2-core/videobuf2-vmalloc.ko

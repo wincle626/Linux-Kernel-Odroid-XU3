@@ -1,0 +1,1 @@
+cmd_net/netfilter/xt_statistic.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/xt_statistic.ko net/netfilter/xt_statistic.o net/netfilter/xt_statistic.mod.o

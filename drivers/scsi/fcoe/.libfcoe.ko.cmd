@@ -1,0 +1,1 @@
+cmd_drivers/scsi/fcoe/libfcoe.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/scsi/fcoe/libfcoe.ko drivers/scsi/fcoe/libfcoe.o drivers/scsi/fcoe/libfcoe.mod.o

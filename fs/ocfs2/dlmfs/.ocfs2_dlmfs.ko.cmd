@@ -1,0 +1,1 @@
+cmd_fs/ocfs2/dlmfs/ocfs2_dlmfs.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o fs/ocfs2/dlmfs/ocfs2_dlmfs.ko fs/ocfs2/dlmfs/ocfs2_dlmfs.o fs/ocfs2/dlmfs/ocfs2_dlmfs.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/bcm203x.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/bluetooth/bcm203x.ko drivers/bluetooth/bcm203x.o drivers/bluetooth/bcm203x.mod.o

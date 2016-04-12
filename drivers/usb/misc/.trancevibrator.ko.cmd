@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/trancevibrator.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/misc/trancevibrator.ko drivers/usb/misc/trancevibrator.o drivers/usb/misc/trancevibrator.mod.o

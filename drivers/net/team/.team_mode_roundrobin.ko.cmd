@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_roundrobin.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_roundrobin.ko drivers/net/team/team_mode_roundrobin.o drivers/net/team/team_mode_roundrobin.mod.o

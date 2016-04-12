@@ -1,0 +1,5 @@
+kernel/drivers/staging/usbip/usbip-core.ko
+kernel/drivers/staging/usbip/vhci-hcd.ko
+kernel/drivers/staging/rtl8712/r8712u.ko
+kernel/drivers/staging/rts5139/rts5139.ko
+kernel/drivers/staging/keucr/keucr.ko

@@ -1,0 +1,1 @@
+cmd_drivers/misc/eeprom/eeprom_93cx6.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/misc/eeprom/eeprom_93cx6.ko drivers/misc/eeprom/eeprom_93cx6.o drivers/misc/eeprom/eeprom_93cx6.mod.o

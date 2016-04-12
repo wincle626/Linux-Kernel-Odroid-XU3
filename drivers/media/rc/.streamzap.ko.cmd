@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/streamzap.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/rc/streamzap.ko drivers/media/rc/streamzap.o drivers/media/rc/streamzap.mod.o

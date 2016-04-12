@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/au8522_decoder.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/au8522_decoder.ko drivers/media/dvb-frontends/au8522_decoder.o drivers/media/dvb-frontends/au8522_decoder.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_file.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/target/target_core_file.ko drivers/target/target_core_file.o drivers/target/target_core_file.mod.o

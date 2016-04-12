@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/cyberjack.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/cyberjack.ko drivers/usb/serial/cyberjack.o drivers/usb/serial/cyberjack.mod.o

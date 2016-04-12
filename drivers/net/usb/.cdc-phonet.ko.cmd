@@ -1,0 +1,1 @@
+cmd_drivers/net/usb/cdc-phonet.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/usb/cdc-phonet.ko drivers/net/usb/cdc-phonet.o drivers/net/usb/cdc-phonet.mod.o

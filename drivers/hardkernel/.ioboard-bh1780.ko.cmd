@@ -1,0 +1,1 @@
+cmd_drivers/hardkernel/ioboard-bh1780.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hardkernel/ioboard-bh1780.ko drivers/hardkernel/ioboard-bh1780.o drivers/hardkernel/ioboard-bh1780.mod.o

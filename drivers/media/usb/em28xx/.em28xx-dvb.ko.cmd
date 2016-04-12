@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-dvb.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/em28xx/em28xx-dvb.ko drivers/media/usb/em28xx/em28xx-dvb.o drivers/media/usb/em28xx/em28xx-dvb.mod.o

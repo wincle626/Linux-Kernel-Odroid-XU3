@@ -1,0 +1,1 @@
+cmd_drivers/net/team/team_mode_broadcast.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/team/team_mode_broadcast.ko drivers/net/team/team_mode_broadcast.o drivers/net/team/team_mode_broadcast.mod.o

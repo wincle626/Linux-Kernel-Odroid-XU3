@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/moto_modem.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/moto_modem.ko drivers/usb/serial/moto_modem.o drivers/usb/serial/moto_modem.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/net/ppp/ppp_deflate.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/net/ppp/ppp_deflate.ko drivers/net/ppp/ppp_deflate.o drivers/net/ppp/ppp_deflate.mod.o

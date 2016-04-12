@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipvs/ip_vs_pe_sip.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/ipvs/ip_vs_pe_sip.ko net/netfilter/ipvs/ip_vs_pe_sip.o net/netfilter/ipvs/ip_vs_pe_sip.mod.o

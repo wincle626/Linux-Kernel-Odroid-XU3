@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/gadgetfs.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/gadget/gadgetfs.ko drivers/usb/gadget/gadgetfs.o drivers/usb/gadget/gadgetfs.mod.o

@@ -1,0 +1,1 @@
+cmd_drivers/usb/misc/sisusbvga/sisusbvga.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/misc/sisusbvga/sisusbvga.ko drivers/usb/misc/sisusbvga/sisusbvga.o drivers/usb/misc/sisusbvga/sisusbvga.mod.o

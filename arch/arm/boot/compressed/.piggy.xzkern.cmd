@@ -1,0 +1,1 @@
+cmd_arch/arm/boot/compressed/piggy.xzkern := (cat arch/arm/boot/compressed/../Image | sh /root/odroidxu3-3.10.y/scripts/xz_wrap.sh && printf \\024\\245\\232\\000) > arch/arm/boot/compressed/piggy.xzkern || (rm -f arch/arm/boot/compressed/piggy.xzkern ; false)

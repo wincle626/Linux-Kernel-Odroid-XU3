@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/ath/ath.o := ld -EL    -r -o backports/drivers/net/wireless/ath/ath.o backports/drivers/net/wireless/ath/main.o backports/drivers/net/wireless/ath/regd.o backports/drivers/net/wireless/ath/hw.o backports/drivers/net/wireless/ath/key.o backports/drivers/net/wireless/ath/dfs_pattern_detector.o backports/drivers/net/wireless/ath/dfs_pri_detector.o 

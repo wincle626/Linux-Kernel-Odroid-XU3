@@ -1,0 +1,1 @@
+cmd_drivers/media/rc/lirc_dev.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/rc/lirc_dev.ko drivers/media/rc/lirc_dev.o drivers/media/rc/lirc_dev.mod.o

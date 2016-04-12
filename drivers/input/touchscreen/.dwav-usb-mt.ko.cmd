@@ -1,0 +1,1 @@
+cmd_drivers/input/touchscreen/dwav-usb-mt.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/input/touchscreen/dwav-usb-mt.ko drivers/input/touchscreen/dwav-usb-mt.o drivers/input/touchscreen/dwav-usb-mt.mod.o

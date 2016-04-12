@@ -1,0 +1,1 @@
+cmd_backports/net/wireless/cfg80211.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/net/wireless/cfg80211.ko backports/net/wireless/cfg80211.o backports/net/wireless/cfg80211.mod.o

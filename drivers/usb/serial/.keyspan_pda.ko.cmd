@@ -1,0 +1,1 @@
+cmd_drivers/usb/serial/keyspan_pda.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/serial/keyspan_pda.ko drivers/usb/serial/keyspan_pda.o drivers/usb/serial/keyspan_pda.mod.o

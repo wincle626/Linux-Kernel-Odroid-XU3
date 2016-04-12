@@ -1,0 +1,1 @@
+cmd_drivers/staging/rtl8712/r8712u.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/staging/rtl8712/r8712u.ko drivers/staging/rtl8712/r8712u.o drivers/staging/rtl8712/r8712u.mod.o

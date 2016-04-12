@@ -1,0 +1,12 @@
+kernel/drivers/media/rc/lirc_dev.ko
+kernel/drivers/media/rc/ir-lirc-codec.ko
+kernel/drivers/media/rc/ati_remote.ko
+kernel/drivers/media/rc/imon.ko
+kernel/drivers/media/rc/mceusb.ko
+kernel/drivers/media/rc/redrat3.ko
+kernel/drivers/media/rc/streamzap.ko
+kernel/drivers/media/rc/rc-loopback.ko
+kernel/drivers/media/rc/gpio-ir-recv.ko
+kernel/drivers/media/rc/gpioplug-ir-recv.ko
+kernel/drivers/media/rc/iguanair.ko
+kernel/drivers/media/rc/ttusbir.ko

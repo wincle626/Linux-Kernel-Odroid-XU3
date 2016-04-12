@@ -1,0 +1,1 @@
+cmd_drivers/scsi/iscsi_boot_sysfs.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/scsi/iscsi_boot_sysfs.ko drivers/scsi/iscsi_boot_sysfs.o drivers/scsi/iscsi_boot_sysfs.mod.o

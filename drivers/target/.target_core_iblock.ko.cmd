@@ -1,0 +1,1 @@
+cmd_drivers/target/target_core_iblock.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/target/target_core_iblock.ko drivers/target/target_core_iblock.o drivers/target/target_core_iblock.mod.o

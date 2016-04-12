@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/brcm80211/brcmutil/brcmutil.o := ld -EL    -r -o backports/drivers/net/wireless/brcm80211/brcmutil/brcmutil.o backports/drivers/net/wireless/brcm80211/brcmutil/utils.o backports/drivers/net/wireless/brcm80211/brcmutil/d11.o 

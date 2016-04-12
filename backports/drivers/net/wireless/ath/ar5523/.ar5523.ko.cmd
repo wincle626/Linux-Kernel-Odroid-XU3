@@ -1,0 +1,1 @@
+cmd_backports/drivers/net/wireless/ath/ar5523/ar5523.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/drivers/net/wireless/ath/ar5523/ar5523.ko backports/drivers/net/wireless/ath/ar5523/ar5523.o backports/drivers/net/wireless/ath/ar5523/ar5523.mod.o

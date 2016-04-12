@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebtable_broute.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebtable_broute.ko net/bridge/netfilter/ebtable_broute.o net/bridge/netfilter/ebtable_broute.mod.o

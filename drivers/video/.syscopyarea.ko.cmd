@@ -1,0 +1,1 @@
+cmd_drivers/video/syscopyarea.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/video/syscopyarea.ko drivers/video/syscopyarea.o drivers/video/syscopyarea.mod.o

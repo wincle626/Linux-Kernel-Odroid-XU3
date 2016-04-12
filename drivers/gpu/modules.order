@@ -1,0 +1,2 @@
+kernel/drivers/gpu/drm/drm_usb.ko
+kernel/drivers/gpu/drm/udl/udl.ko

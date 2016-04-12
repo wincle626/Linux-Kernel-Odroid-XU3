@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/si21xx.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/si21xx.ko drivers/media/dvb-frontends/si21xx.o drivers/media/dvb-frontends/si21xx.mod.o

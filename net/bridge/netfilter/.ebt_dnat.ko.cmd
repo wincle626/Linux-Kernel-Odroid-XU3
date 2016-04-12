@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_dnat.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_dnat.ko net/bridge/netfilter/ebt_dnat.o net/bridge/netfilter/ebt_dnat.mod.o

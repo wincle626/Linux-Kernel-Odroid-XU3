@@ -1,0 +1,1 @@
+cmd_net/netfilter/ipset/ip_set_hash_ipportip.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/ipset/ip_set_hash_ipportip.ko net/netfilter/ipset/ip_set_hash_ipportip.o net/netfilter/ipset/ip_set_hash_ipportip.mod.o

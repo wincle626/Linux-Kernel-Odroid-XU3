@@ -1,0 +1,1 @@
+cmd_net/ipv6/netfilter/ip6t_rpfilter.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/ipv6/netfilter/ip6t_rpfilter.ko net/ipv6/netfilter/ip6t_rpfilter.o net/ipv6/netfilter/ip6t_rpfilter.mod.o

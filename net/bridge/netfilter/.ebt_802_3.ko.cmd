@@ -1,0 +1,1 @@
+cmd_net/bridge/netfilter/ebt_802_3.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/bridge/netfilter/ebt_802_3.ko net/bridge/netfilter/ebt_802_3.o net/bridge/netfilter/ebt_802_3.mod.o

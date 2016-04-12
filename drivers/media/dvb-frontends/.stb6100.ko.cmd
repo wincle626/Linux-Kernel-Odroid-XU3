@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/stb6100.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/stb6100.ko drivers/media/dvb-frontends/stb6100.o drivers/media/dvb-frontends/stb6100.mod.o

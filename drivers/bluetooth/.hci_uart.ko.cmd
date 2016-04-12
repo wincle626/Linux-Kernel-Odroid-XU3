@@ -1,0 +1,1 @@
+cmd_drivers/bluetooth/hci_uart.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/bluetooth/hci_uart.ko drivers/bluetooth/hci_uart.o drivers/bluetooth/hci_uart.mod.o

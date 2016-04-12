@@ -1,0 +1,1 @@
+cmd_drivers/hid/hid-ps3remote.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hid/hid-ps3remote.ko drivers/hid/hid-ps3remote.o drivers/hid/hid-ps3remote.mod.o

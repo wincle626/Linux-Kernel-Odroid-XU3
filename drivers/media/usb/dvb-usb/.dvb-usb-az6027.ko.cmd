@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-az6027.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-az6027.ko drivers/media/usb/dvb-usb/dvb-usb-az6027.o drivers/media/usb/dvb-usb/dvb-usb-az6027.mod.o

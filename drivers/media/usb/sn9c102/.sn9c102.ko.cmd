@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/sn9c102/sn9c102.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/sn9c102/sn9c102.ko drivers/media/usb/sn9c102/sn9c102.o drivers/media/usb/sn9c102/sn9c102.mod.o

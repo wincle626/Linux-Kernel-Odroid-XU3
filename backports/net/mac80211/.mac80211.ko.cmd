@@ -1,0 +1,1 @@
+cmd_backports/net/mac80211/mac80211.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/net/mac80211/mac80211.ko backports/net/mac80211/mac80211.o backports/net/mac80211/mac80211.mod.o

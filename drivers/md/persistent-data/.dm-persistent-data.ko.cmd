@@ -1,0 +1,1 @@
+cmd_drivers/md/persistent-data/dm-persistent-data.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/md/persistent-data/dm-persistent-data.ko drivers/md/persistent-data/dm-persistent-data.o drivers/md/persistent-data/dm-persistent-data.mod.o

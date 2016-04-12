@@ -1,0 +1,1 @@
+cmd_drivers/media/common/cx2341x.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/common/cx2341x.ko drivers/media/common/cx2341x.o drivers/media/common/cx2341x.mod.o

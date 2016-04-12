@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/r820t.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/tuners/r820t.ko drivers/media/tuners/r820t.o drivers/media/tuners/r820t.mod.o

@@ -1,0 +1,4 @@
+kernel/drivers/media/usb/em28xx/em28xx.ko
+kernel/drivers/media/usb/em28xx/em28xx-alsa.ko
+kernel/drivers/media/usb/em28xx/em28xx-dvb.ko
+kernel/drivers/media/usb/em28xx/em28xx-rc.ko

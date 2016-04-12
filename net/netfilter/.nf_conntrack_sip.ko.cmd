@@ -1,0 +1,1 @@
+cmd_net/netfilter/nf_conntrack_sip.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o net/netfilter/nf_conntrack_sip.ko net/netfilter/nf_conntrack_sip.o net/netfilter/nf_conntrack_sip.mod.o

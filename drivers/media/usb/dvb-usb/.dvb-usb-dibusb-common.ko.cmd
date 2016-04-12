@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.ko drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.o drivers/media/usb/dvb-usb/dvb-usb-dibusb-common.mod.o

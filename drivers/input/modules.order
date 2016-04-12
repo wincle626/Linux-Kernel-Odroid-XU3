@@ -1,0 +1,6 @@
+kernel/drivers/input/mouse/appletouch.ko
+kernel/drivers/input/mouse/bcm5974.ko
+kernel/drivers/input/mouse/synaptics_usb.ko
+kernel/drivers/input/touchscreen/dwav-usb-mt.ko
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/joydev.ko

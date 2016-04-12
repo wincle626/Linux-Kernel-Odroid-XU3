@@ -1,0 +1,1 @@
+cmd_drivers/input/mouse/appletouch.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/input/mouse/appletouch.ko drivers/input/mouse/appletouch.o drivers/input/mouse/appletouch.mod.o

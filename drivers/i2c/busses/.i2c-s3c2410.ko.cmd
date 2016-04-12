@@ -1,0 +1,1 @@
+cmd_drivers/i2c/busses/i2c-s3c2410.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/i2c/busses/i2c-s3c2410.ko drivers/i2c/busses/i2c-s3c2410.o drivers/i2c/busses/i2c-s3c2410.mod.o

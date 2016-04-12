@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/gspca/gspca_finepix.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/gspca/gspca_finepix.ko drivers/media/usb/gspca/gspca_finepix.o drivers/media/usb/gspca/gspca_finepix.mod.o

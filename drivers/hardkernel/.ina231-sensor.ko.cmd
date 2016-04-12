@@ -1,0 +1,1 @@
+cmd_drivers/hardkernel/ina231-sensor.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/hardkernel/ina231-sensor.ko drivers/hardkernel/ina231-sensor.o drivers/hardkernel/ina231-sensor.mod.o

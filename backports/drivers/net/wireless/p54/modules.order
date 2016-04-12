@@ -1,0 +1,2 @@
+kernel/backports/drivers/net/wireless/p54/p54common.ko
+kernel/backports/drivers/net/wireless/p54/p54usb.ko

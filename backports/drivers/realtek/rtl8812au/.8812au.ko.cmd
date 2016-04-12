@@ -1,0 +1,1 @@
+cmd_backports/drivers/realtek/rtl8812au/8812au.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o backports/drivers/realtek/rtl8812au/8812au.ko backports/drivers/realtek/rtl8812au/8812au.o backports/drivers/realtek/rtl8812au/8812au.mod.o

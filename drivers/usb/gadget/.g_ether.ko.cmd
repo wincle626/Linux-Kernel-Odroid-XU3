@@ -1,0 +1,1 @@
+cmd_drivers/usb/gadget/g_ether.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/usb/gadget/g_ether.ko drivers/usb/gadget/g_ether.o drivers/usb/gadget/g_ether.mod.o

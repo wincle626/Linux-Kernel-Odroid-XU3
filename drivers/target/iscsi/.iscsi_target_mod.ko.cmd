@@ -1,0 +1,1 @@
+cmd_drivers/target/iscsi/iscsi_target_mod.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/target/iscsi/iscsi_target_mod.ko drivers/target/iscsi/iscsi_target_mod.o drivers/target/iscsi/iscsi_target_mod.mod.o

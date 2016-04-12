@@ -1,0 +1,1 @@
+cmd_drivers/media/tuners/e4000.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/tuners/e4000.ko drivers/media/tuners/e4000.o drivers/media/tuners/e4000.mod.o

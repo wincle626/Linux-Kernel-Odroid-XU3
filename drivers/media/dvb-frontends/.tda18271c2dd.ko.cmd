@@ -1,0 +1,1 @@
+cmd_drivers/media/dvb-frontends/tda18271c2dd.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/dvb-frontends/tda18271c2dd.ko drivers/media/dvb-frontends/tda18271c2dd.o drivers/media/dvb-frontends/tda18271c2dd.mod.o

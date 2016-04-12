@@ -1,0 +1,1 @@
+cmd_sound/core/seq/snd-seq-device.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o sound/core/seq/snd-seq-device.ko sound/core/seq/snd-seq-device.o sound/core/seq/snd-seq-device.mod.o

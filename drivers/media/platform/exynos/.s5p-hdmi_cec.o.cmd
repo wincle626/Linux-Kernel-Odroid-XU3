@@ -1,0 +1,1 @@
+cmd_drivers/media/platform/exynos/s5p-hdmi_cec.o := ld -EL    -r -o drivers/media/platform/exynos/s5p-hdmi_cec.o drivers/media/platform/exynos/tv/hdmi_cec.o drivers/media/platform/exynos/tv/hdmi_cec_ctrl.o 

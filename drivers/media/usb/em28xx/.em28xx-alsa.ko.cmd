@@ -1,0 +1,1 @@
+cmd_drivers/media/usb/em28xx/em28xx-alsa.ko := ld -EL -r  -T /root/odroidxu3-3.10.y/scripts/module-common.lds --build-id  -o drivers/media/usb/em28xx/em28xx-alsa.ko drivers/media/usb/em28xx/em28xx-alsa.o drivers/media/usb/em28xx/em28xx-alsa.mod.o
